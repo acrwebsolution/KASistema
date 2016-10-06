@@ -24468,3 +24468,49 @@ Processing by PagesController#index as HTML
   Rendered layouts/_menu.html.erb (0.2ms)
   Rendered layouts/_menu.html.erb (0.2ms)
 Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about_us" for 172.24.0.2 at 2016-10-06 02:00:30 +0000
+Cannot render console from 172.24.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about_us as HTML
+  Rendered pages/about_us.html.erb within layouts/internal (0.1ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/faq" for 172.24.0.2 at 2016-10-06 02:00:37 +0000
+Cannot render console from 172.24.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#faq as HTML
+  Rendered pages/faq.html.erb within layouts/internal (0.1ms)
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/tos" for 172.24.0.2 at 2016-10-06 02:00:43 +0000
+Cannot render console from 172.24.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#tos as HTML
+  Rendered pages/tos.html.erb within layouts/internal (1.0ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact_us" for 172.24.0.2 at 2016-10-06 02:00:47 +0000
+Cannot render console from 172.24.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contact_us as HTML
+  Rendered pages/_map.html.erb (0.2ms)
+  Rendered pages/contact_us.html.erb within layouts/internal (1.3ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered layouts/_menu.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.24.0.2 at 2016-10-06 02:00:58 +0000
+Cannot render console from 172.24.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered layouts/_menu.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
